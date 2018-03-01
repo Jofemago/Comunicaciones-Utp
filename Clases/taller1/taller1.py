@@ -17,12 +17,12 @@ def a():
 
     t = sym.symbols('t')
     xt =  4 * sym.sin(7*t)+ 25* sym.cos(15*t)
-    sym.plot(xt)
-
+    #sym.plot(xt)
+    sym.pprint(xt)
 def b():
 
     t = sym.symbols('t')
     xt =  (6* sym.sin(3*t) + 4* sym.sin(7 *t))**2
-    sym.plot(xt,xlim = [-5,5])
+    #sym.plot(xt,xlim = [-5,5])
 
-b()
+a()
